@@ -61,7 +61,7 @@ def main():
         return
     yt_url = sys.argv[1]
     download_audio(yt_url)
-    if (not len(sys.argv > 2)): # exit if no instants as args
+    if (not len(sys.argv) > 2): # exit if no instants as args
         return
     initial = sys.argv[2]
     final = ""
